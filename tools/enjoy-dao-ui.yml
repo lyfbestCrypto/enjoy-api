@@ -3,7 +3,7 @@
 database:
   url: jdbc:mysql://127.0.0.1:3306/enjoy_api?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false
   username: root
-  password: 960720
+  password: mysql
   database: enjoy_api
 
 modelBuilder:

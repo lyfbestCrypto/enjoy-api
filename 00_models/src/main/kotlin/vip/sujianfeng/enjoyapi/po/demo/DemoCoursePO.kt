@@ -10,7 +10,7 @@ import vip.sujianfeng.enjoydao.enums.*
  * author GenerateModelBuilder
  * description 读取数据库生成的实体模型代码，不要手动修改，重新生成后会覆盖
  **/
-@ApiModel("课程定义PO")
+@ApiModel("课程管理PO")
 @TbTableUuid(table = "demo_course")
 open class DemoCoursePO: vip.sujianfeng.enjoyapi.dbconn.MyModelBase() {
     @ApiModelProperty("课程编号")
